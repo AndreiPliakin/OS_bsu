@@ -1,0 +1,5 @@
+D:/OS_bsu/lab_1_windows/build/CMakeFiles/Number.dir
+D:/OS_bsu/lab_1_windows/build/CMakeFiles/Vector.dir
+D:/OS_bsu/lab_1_windows/build/CMakeFiles/Main.dir
+D:/OS_bsu/lab_1_windows/build/CMakeFiles/edit_cache.dir
+D:/OS_bsu/lab_1_windows/build/CMakeFiles/rebuild_cache.dir
