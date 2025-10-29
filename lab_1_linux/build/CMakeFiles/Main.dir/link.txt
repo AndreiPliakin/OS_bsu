@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Main.dir/Main/main.cpp.o -o bin/Main  -Wl,-rpath,/home/andrei/Andrei/OS_bsu/lab_1_linux/build/bin bin/libNumber.a bin/libVector.so 

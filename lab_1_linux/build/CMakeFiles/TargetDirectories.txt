@@ -1,0 +1,5 @@
+/home/andrei/Andrei/OS_bsu/lab_1_linux/build/CMakeFiles/Number.dir
+/home/andrei/Andrei/OS_bsu/lab_1_linux/build/CMakeFiles/Vector.dir
+/home/andrei/Andrei/OS_bsu/lab_1_linux/build/CMakeFiles/Main.dir
+/home/andrei/Andrei/OS_bsu/lab_1_linux/build/CMakeFiles/edit_cache.dir
+/home/andrei/Andrei/OS_bsu/lab_1_linux/build/CMakeFiles/rebuild_cache.dir

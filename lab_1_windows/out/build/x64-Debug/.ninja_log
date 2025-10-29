@@ -1,0 +1,8 @@
+# ninja log v6
+5	61	7810375529426008	CMakeFiles/Number.dir/Number/Number.cpp.obj	b11e882dedd4ca6e
+10	102	7810375529474712	CMakeFiles/Vector.dir/Vector/Vector.cpp.obj	30cbe455c66e944f
+62	122	7810375529995684	bin/Number.lib	797168eca258bb28
+122	360	7810375532761130	bin/Vector.dll	790e25d8b42833b1
+122	360	7810375532761130	Vector.lib	790e25d8b42833b1
+14	445	7810375529514138	CMakeFiles/Main.dir/Main/main.cpp.obj	8c7842311d5fd288
+445	693	7810375533824970	bin/Main.exe	f0d56e59a8af1445
