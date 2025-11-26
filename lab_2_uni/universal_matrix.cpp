@@ -7,7 +7,8 @@
 #include <thread>
 #include <vector>
 
-const int N = 100;
+const int N = 1000;
+constexpr int kMaxThreads = 10000;
 
 static int A[N][N];
 static int B[N][N];
@@ -66,7 +67,7 @@ int main() {
     std::cout << "Single-threaded time: " << single_time_ms << " ms" << std::endl;
     std::cout << std::endl;
 
-    std::vector<int> block_sizes = {1, 2, 5, 10, 20, 25, 50, N};
+    std::vector<int> block_sizes = {1, 2, 5, 10, 20, 25, 50, 100, 200, 500, N};
 
     std::cout << "Multi-threaded results:" << std::endl;
     std::cout << "k\tThreads\tTime(ms)\tSpeedup" << std::endl;
@@ -77,6 +78,11 @@ int main() {
 
         int blocks_per_dim = (N + k - 1) / k;
         int total_threads = blocks_per_dim * blocks_per_dim;
+
+        if (total_threads > kMaxThreads) {
+            std::cout << k << "\t" << total_threads << "\tSKIPPED\t\tTOO MANY THREADS" << std::endl;
+            continue;
+        }
 
         std::vector<std::thread> threads;
         threads.reserve(total_threads);
@@ -107,3 +113,27 @@ int main() {
     std::cout << std::endl << "Universal implementation completed!" << std::endl;
     return 0;
 }
+
+/*
+
+=== Universal Matrix Multiplication 1000x1000 (std::thread) ===
+Single-threaded time: 1939.72 ms
+
+Multi-threaded results:
+k	Threads	Time(ms)	Speedup
+----------------------------------------
+1	1000000	SKIPPED		TOO MANY THREADS
+2	250000	SKIPPED		TOO MANY THREADS
+5	40000	SKIPPED		TOO MANY THREADS
+10	10000	319.93		6.063x
+20	2500	204.35		9.492x
+25	1600	189.01		10.262x
+50	400	176.36		10.999x
+100	100	171.52		11.309x
+200	25	180.54		10.744x
+500	4	407.13		4.764x
+1000	1	1625.77		1.193x
+
+Universal implementation completed!
+
+ */
