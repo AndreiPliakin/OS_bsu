@@ -7,6 +7,7 @@
 #include <sstream>
 #include <string>
 #include <sys/types.h>
+#include <sys/wait.h>
 #include <unistd.h>
 #include <vector>
 
@@ -169,7 +170,7 @@ void show_menu() {
   std::cout << "5. Выход" << std::endl;
   std::cout << "Выберите опцию (1-5): ";
 }
-
+/*
 int main() {
 
   while (true) {
@@ -243,4 +244,34 @@ int main() {
     std::cin.ignore();
     std::cin.get();
   }
+}*/
+
+int main(int argc, char* argv[]) {
+  if (argc == 1) {
+    kill_by_env_variable();
+    return 0;
+  }
+
+  std::string arg = argv[1];
+
+  if (arg == "--id" && argc > 2) {
+    try {
+      const pid_t pid = std::stoi(argv[2]);
+      kill_by_id(pid);
+    } catch (...) {
+      std::cerr << "[KILLER] Invalid PID: " << argv[2] << std::endl;
+      return 1;
+    }
+  }
+  else if (arg == "--name" && argc > 2) {
+    kill_by_name(argv[2]);
+  }
+  else if (arg == "--env") {
+    kill_by_env_variable();
+  }
+  else {
+    return 1;
+  }
+
+  return 0;
 }
