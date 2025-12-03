@@ -1,0 +1,8 @@
+D:/OS_bsu/lab_4_killer_windows/build/CMakeFiles/edit_cache.dir
+D:/OS_bsu/lab_4_killer_windows/build/CMakeFiles/rebuild_cache.dir
+D:/OS_bsu/lab_4_killer_windows/build/killer/CMakeFiles/killer.dir
+D:/OS_bsu/lab_4_killer_windows/build/killer/CMakeFiles/edit_cache.dir
+D:/OS_bsu/lab_4_killer_windows/build/killer/CMakeFiles/rebuild_cache.dir
+D:/OS_bsu/lab_4_killer_windows/build/user/CMakeFiles/user.dir
+D:/OS_bsu/lab_4_killer_windows/build/user/CMakeFiles/edit_cache.dir
+D:/OS_bsu/lab_4_killer_windows/build/user/CMakeFiles/rebuild_cache.dir

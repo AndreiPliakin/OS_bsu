@@ -1,0 +1,7 @@
+# ninja log v7
+4	4146	7864990893504423	killer/CMakeFiles/killer.dir/killer_windows.cpp.obj	96ee3ae6c2e02300
+4149	4300	7864990934948372	killer/killer.exe	fb139904ba564e23
+10	4626	7864990893504423	user/CMakeFiles/user.dir/user_windows.cpp.obj	1743bb7790e00d78
+4627	4721	7864990939631755	user/user.exe	841f05e0a4bcdc1e
+7	1188	7864994206105139	user/CMakeFiles/user.dir/user_windows.cpp.obj	1743bb7790e00d78
+1188	1289	7864994217946879	user/user.exe	841f05e0a4bcdc1e

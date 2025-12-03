@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/OS_bsu/lab_4_killer_windows/build/cmake_install.cmake",
+		"D:/OS_bsu/lab_4_killer_windows/build/killer/cmake_install.cmake",
+		"D:/OS_bsu/lab_4_killer_windows/build/user/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
