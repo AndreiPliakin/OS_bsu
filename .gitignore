@@ -1,1 +1,7 @@
-
+.vs/
+*.user
+*.aps
+*.pch
+*.suo
+*.sln.docstates
+*.opensdf

@@ -1,0 +1,12 @@
+﻿  Main.cpp
+D:\OS_bsu\lab_1_without_cmake\Vector\Vector.h(21,12): warning C4251: 'Vector::x': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'Main.cpp')
+      D:\OS_bsu\lab_1_without_cmake\Number\Number.h(3,7):
+      see declaration of 'Number'
+  
+D:\OS_bsu\lab_1_without_cmake\Vector\Vector.h(22,12): warning C4251: 'Vector::y': 'Number' needs to have dll-interface to be used by clients of 'Vector'
+  (compiling source file 'Main.cpp')
+      D:\OS_bsu\lab_1_without_cmake\Number\Number.h(3,7):
+      see declaration of 'Number'
+  
+  Main.vcxproj -> D:\OS_bsu\lab_1_without_cmake\x64\Debug\Main.exe

@@ -1,0 +1,8 @@
+D:/OS_bsu/lab_5_pipes_windows/build/CMakeFiles/M.dir
+D:/OS_bsu/lab_5_pipes_windows/build/CMakeFiles/A.dir
+D:/OS_bsu/lab_5_pipes_windows/build/CMakeFiles/P.dir
+D:/OS_bsu/lab_5_pipes_windows/build/CMakeFiles/S.dir
+D:/OS_bsu/lab_5_pipes_windows/build/CMakeFiles/main.dir
+D:/OS_bsu/lab_5_pipes_windows/build/CMakeFiles/test.dir
+D:/OS_bsu/lab_5_pipes_windows/build/CMakeFiles/edit_cache.dir
+D:/OS_bsu/lab_5_pipes_windows/build/CMakeFiles/rebuild_cache.dir
